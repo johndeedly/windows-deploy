@@ -16,13 +16,6 @@ Write-Output "Installing Visual Studio Code"
 choco install vscode
 
 # ===
-# WSL (stage 2)
-# ===
-Write-Output "Enable WSL (stage 2)"
-Write-Output "[#] WSL Install"
-wsl --install
-
-# ===
 # Exit
 # ===
 
